@@ -30,6 +30,7 @@ declare module '$env/static/private' {
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
+	export const GEM_HOME: string;
 	export const TERM: string;
 	export const SHELL: string;
 	export const npm_config_metrics_registry: string;
@@ -123,6 +124,7 @@ declare module '$env/dynamic/private' {
 		TERM_PROGRAM: string;
 		NODE: string;
 		INIT_CWD: string;
+		GEM_HOME: string;
 		TERM: string;
 		SHELL: string;
 		npm_config_metrics_registry: string;

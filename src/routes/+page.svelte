@@ -2,7 +2,7 @@
 
 <div class="flex items-center justify-center h-screen  ">
 	<div class="space-y-10 text-center flex flex-col items-center">
-		<div class="flex flex-row anim-title" transition:fly={{ y: 40, duration: 1000 }} >
+		<div class="flex flex-row anim-title" transition:fly={{ y: 120, duration: 500 }} >
 			<h2 class="h2 font-semibold">Hello there, I'm Team</h2>
 			<p class="h2 ml-2 transition ease-in-out duration-300 hover:rotate-45 hover:scale-125">👋🏻</p>
 		</div>
