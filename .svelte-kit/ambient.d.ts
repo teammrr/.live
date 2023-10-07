@@ -31,6 +31,7 @@ declare module '$env/static/private' {
 	export const NODE: string;
 	export const INIT_CWD: string;
 	export const GEM_HOME: string;
+	export const _P9K_TTY: string;
 	export const TERM: string;
 	export const SHELL: string;
 	export const npm_config_metrics_registry: string;
@@ -64,7 +65,9 @@ declare module '$env/static/private' {
 	export const PWD: string;
 	export const npm_lifecycle_event: string;
 	export const EDITOR: string;
+	export const P9K_SSH: string;
 	export const npm_package_name: string;
+	export const P9K_TTY: string;
 	export const ITERM_PROFILE: string;
 	export const npm_config_npm_version: string;
 	export const XPC_FLAGS: string;
@@ -85,6 +88,7 @@ declare module '$env/static/private' {
 	export const npm_config_user_agent: string;
 	export const INFOPATH: string;
 	export const HOMEBREW_CELLAR: string;
+	export const _P9K_SSH_TTY: string;
 	export const LC_TERMINAL: string;
 	export const SECURITYSESSIONID: string;
 	export const npm_node_execpath: string;
@@ -125,6 +129,7 @@ declare module '$env/dynamic/private' {
 		NODE: string;
 		INIT_CWD: string;
 		GEM_HOME: string;
+		_P9K_TTY: string;
 		TERM: string;
 		SHELL: string;
 		npm_config_metrics_registry: string;
@@ -158,7 +163,9 @@ declare module '$env/dynamic/private' {
 		PWD: string;
 		npm_lifecycle_event: string;
 		EDITOR: string;
+		P9K_SSH: string;
 		npm_package_name: string;
+		P9K_TTY: string;
 		ITERM_PROFILE: string;
 		npm_config_npm_version: string;
 		XPC_FLAGS: string;
@@ -179,6 +186,7 @@ declare module '$env/dynamic/private' {
 		npm_config_user_agent: string;
 		INFOPATH: string;
 		HOMEBREW_CELLAR: string;
+		_P9K_SSH_TTY: string;
 		LC_TERMINAL: string;
 		SECURITYSESSIONID: string;
 		npm_node_execpath: string;
