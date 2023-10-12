@@ -1,0 +1,29 @@
+---
+import Hero from '../components/Hero.svelte'
+import DarkModeScript from '../components/DarkModeScript.astro'
+import styles from '../styles/global.css?inline'
+import ThemeSwtich from '../components/ThemeSwtich.svelte'
+---
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <title>teamrr.live</title>
+  <style set:html={styles}></style>
+  <script crossorigin="anonymous">
+    
+  </script>
+  <DarkModeScript />
+</head>
+
+<body class="text-zinc-700 bg-zinc-200 dark:text-white dark:bg-zinc-900">
+  <div class="absolute top-5 right-5">
+    <ThemeSwtich client:only />
+  </div>
+  <Hero client:idle />
+</body>
+<script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
+</html>
