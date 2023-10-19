@@ -1,6 +1,6 @@
-<div class="text-3xl  lg:text-5xl flex items-center justify-center">
+<div class="text-3xl lg:text-5xl flex items-center justify-center">
   <h2 class="font-semibold text-zinc-700 dark:text-zinc-200">
-    Hello there, I'm <span class="text-blue-500 dark:text-blue-400"
+    Hello there, I'm <span class="text-blue-500 dark:text-blue-500"
     >Team<span /></span
     >
   </h2>

@@ -2,7 +2,7 @@
     import { onMount } from "svelte"
     import { fade, fly } from "svelte/transition"
     import { cubicInOut } from "svelte/easing"
-    
+    import Description from "./Description.svelte";
     import Greeting from "./Greeting.svelte";
     import Links from "./Links.svelte";
     
@@ -25,8 +25,9 @@
         {#if ready}
           <div
             transition:fade={{ duration: 500, easing: cubicInOut }} class="w-full text-center py-8">
-            <div transition:fly={{ y: 200, duration: 600 }}>
+            <div transition:fly={{ y: 200, duration: 800 }}>
               <Greeting />
+              <Description />
               <Links />
             </div>
           </div>
