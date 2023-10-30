@@ -1,6 +1,6 @@
 <script>
     import { onMount } from "svelte"
-    import { fade, fly } from "svelte/transition"
+    import { fade, fly, slide } from "svelte/transition"
     import { cubicInOut } from "svelte/easing"
     import Description from "./Description.svelte";
     import Greeting from "./Greeting.svelte";

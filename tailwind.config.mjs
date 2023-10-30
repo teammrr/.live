@@ -1,10 +1,10 @@
 const config = {
   content: [
-    "./src/**/*.{html,js,svelte,ts}",
-    "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}",
+    "./src/**/*.{html,js,svelte,ts,astro}",
+    "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts,astro}",
   ],
 
-  plugins: [require("flowbite/plugin")],
+  plugins: [require("flowbite/plugin", "daisyui")],
 
   darkMode: "class",
 
